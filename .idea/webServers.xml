@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a7cbf5fc-0843-4e35-a8e6-26bce8397f22" name="bianxinxiang-server" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="22" rootFolder="/home/win10xiaoxin" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b0a506dd-8585-476b-9e5f-9c96e2ae2f1e" name="local-server" url="http://192.168.1.5">
+        <fileTransfer host="192.168.1.5" port="22" rootFolder="/home/win10xiaoxin" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

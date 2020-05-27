@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" showEqualInSync="true" showNewOnTargetInSync="false">
+    <serverData>
+      <paths name="bianxinxiang-server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/python program code" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="local-server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/python program code" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
