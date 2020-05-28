@@ -22,8 +22,10 @@ finally:
 print("程序开始")
 try:
     file1 = open("zhangfeipo04Big.f4v", "rb") #read成功执行 打开一个文件
-    # file1.write("找美美聊天")  # 写，引发异常
-    file1.close()              #执行不到 关闭文件
+    file_context = file1.read()
+    # print(file_context)
+    file1.write("找美美聊天")    # 写，引发异常
+    # file1.close()              #执行不到 关闭文件
 except:
     print("文件读取结束")
 finally:
@@ -37,16 +39,6 @@ print("程序结束")             #执行不到
 # if b==0:
 #     raise ZeroDivisionError("division by zero")
 #raise 抛出异常
-
-
-import re
-import sys
-
-import os
-import requests
-import urllib
-import urllib3
-requests.request()
 
 
 
