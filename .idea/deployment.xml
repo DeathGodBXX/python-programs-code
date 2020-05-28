@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" showEqualInSync="true" showNewOnTargetInSync="false">
+  <component name="PublishConfigData" uploadOnCheckin="a7cbf5fc-0843-4e35-a8e6-26bce8397f22" showEqualInSync="true" showNewOnTargetInSync="false">
     <serverData>
       <paths name="bianxinxiang-server">
         <serverdata>
           <mappings>
-            <mapping deploy="/python program code" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/python program code" local="$PROJECT_DIR$" web="https://github.com/DeathGodBXX/python-programs-code" />
           </mappings>
         </serverdata>
       </paths>
@@ -17,5 +17,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="bianxinxiang-server" />
   </component>
 </project>
