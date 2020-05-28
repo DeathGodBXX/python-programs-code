@@ -27,6 +27,7 @@ try:
 except ZeroDivisionError:
     print("0做除数了")
 
+import  re
 
 
 
