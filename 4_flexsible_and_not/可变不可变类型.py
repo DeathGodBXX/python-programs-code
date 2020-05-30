@@ -11,13 +11,13 @@
 # list1.append(4)
 
 # print('修改后，list1的内存地址是:', id(list1))
-#列表是可变的，内存地址修改前后不变
+# 列表是可变的，内存地址修改前后不变
 # tuple1=(1,2,3)
 # tuple1.__new__()
 # print("tuple1的内存地址:",id(tuple1))
 # tuple1=(1,2,3,4)
 # print("tuple1的内存地址:",id(tuple1))
-#元组是不可变的，追加模式都没有，手动添加，所以最终的ip地址会改变
+# 元组是不可变的，追加模式都没有，手动添加，所以最终的ip地址会改变
 
 """
 演示列表和元组的转换
@@ -40,13 +40,11 @@ tuple1 = (1, 2, 3)
 list2 = list(tuple1)
 print(list2)
 list3 = list2.append(4)
-#append无返回值，所以调用，没有值传递给list3,但是list3=list2,修改过的list2,list3的值就不是None
+# append无返回值，所以调用，没有值传递给list3,但是list3=list2,修改过的list2,list3的值就不是None
 
 list3 = list2
 print(list2)
 print(list3)
-
-
 
 # list_a = [1,2,3]
 # list_b =list_a
@@ -62,7 +60,6 @@ print(list3)
 # name = "bobo"
 # gender = "男"
 # age = "28"
-
 
 
 # 键值对，键是唯一的，值不限制
@@ -95,7 +92,7 @@ print(list3)
 # print(dict1)
 # del dict1
 # print(dict1)
-#使用for循环遍历字典数据   赋值给i以键名，再根据键名查找数值
+# 使用for循环遍历字典数据   赋值给i以键名，再根据键名查找数值
 # for i in dict1:
 #     print(i, ':', end=' ')
 #     print(dict1[i])
@@ -115,71 +112,3 @@ print(list3)
 
 # dict4 = {'Name': ['游朋卓','系建行'] }
 # print(dict4)  #键唯一，值不必
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
