@@ -1,14 +1,14 @@
 def hot_dry_noodle(c):
-    def b():
-        c()
+    def b(args):
+        c(args)
         print('热干面最好吃,',end='')
 
     return b
 
 
 def stewed_noodle(c):
-    def b():
-        c()
+    def b(args):
+        c(args)
         print('烩面太难吃.')
 
     return b
@@ -16,8 +16,9 @@ def stewed_noodle(c):
 
 @stewed_noodle
 @hot_dry_noodle
-def province():
-    print('河南省,', end='')
+def province(args):
+    print(args, ',', end='')
+    print(province)
 
 
-province()
+province('河南省')

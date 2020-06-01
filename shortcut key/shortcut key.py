@@ -7,6 +7,7 @@ Ctrl + 右方括号   快速跳到代码末尾
 SHIFT + Enter     快速换行，即光标无需在行尾
 Ctrl + Z         撤销
 Ctrl + Shift + Z 反撤销
+CTRL+鼠标点函数名  查看函数内容
 
 Pycharm默认的代码格式化：Ctrl+Shift+Alt+L'
 import sys

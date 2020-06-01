@@ -1,4 +1,6 @@
-# 线程看似多任务，线程Cpython GIL 全局解释锁 快速的切换，假的多任务  #输出结果乱序
+"""
+演示查看线程数
+"""
 import time
 import threading
 
@@ -12,7 +14,7 @@ def sing():
 def dance():
     for i in range(3):
         print("bobo老师在跳舞")
-        time.sleep(0.8)
+        time.sleep(0.8)  # CTRL+鼠标点函数名
 
 
 def main():
@@ -20,6 +22,10 @@ def main():
     t2 = threading.Thread(target=dance)  # 子线程
     t1.start()  # 线程的启动,调用
     t2.start()
+    len1 = len(threading.enumerate())  # enumerate()返回线程构成的列表
+    print(len1)
+    list1 = threading.enumerate()
+    print(list1)
 
 
 if __name__ == "__main__":
