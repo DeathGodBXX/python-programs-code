@@ -5,7 +5,7 @@ def sing():  # 函数含有yield，为生成器模板
     while True:
         print("***bobo老师再唱歌***")
         time.sleep(0.3)
-        yield  # 暂停，切换
+        yield  # 暂停，切换  休眠操作不是为了触发yield的功能
 
 
 def dance():

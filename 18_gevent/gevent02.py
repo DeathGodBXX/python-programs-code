@@ -24,6 +24,7 @@ def main():
         gevent.spawn(sing),
         gevent.spawn(dance)
     ])
+    # 先触发sing，碰到延迟暂停操作，触发dance
 
 
 if __name__ == '__main__':
